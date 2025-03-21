@@ -1,0 +1,47 @@
+.app {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.streaming-console {
+  display: flex;
+  flex: 1;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+.api-key-form-container {
+  margin-bottom: 20px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.app-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.app-title {
+  margin-left: 10px;
+  font-size: 24px;
+}
+
+.api-key-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.api-key-form input {
+  padding: 5px;
+  margin-right: 10px;
+}

@@ -1,0 +1,42 @@
+<div class="app">
+  <div class="streaming-console">
+    <main>
+      <div class="api-key-form-container">
+        <div class="header-container">
+          <div class="app-title-container">
+            <img src="assets/gemini-logo.svg" alt="Gemini Logo" class="gemini-logo">
+            <h1 class="app-title">Gemini Cursor</h1>
+          </div>
+          <p>
+            Made with ✨️ by
+            <a href="https://x.com/27upon2" target="_blank" rel="noopener noreferrer">
+              @13point5
+            </a>
+          </p>
+        </div>
+        <div class="api-key-form">
+          <form (submit)="handleApiKeySubmit($event)">
+            <label for="api-key">Gemini API Key</label>
+            <div>
+              <input
+                type="password"
+                id="api-key"
+                [(ngModel)]="apiKey"
+                name="apiKey"
+                placeholder="Enter your API key"
+              />
+              <button type="submit">Update</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="main-app-area">
+        <!-- Cursor Control Component -->
+        <!-- Video Stream -->
+      </div>
+
+      <!-- Control Tray Component -->
+    </main>
+  </div>
+</div>

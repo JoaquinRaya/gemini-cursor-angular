@@ -1,0 +1,6 @@
+.control-tray {
+  /* Basic styling for control tray */
+  display: flex;
+ ...<snip>... 
+  margin-top: 10px;
+}

@@ -1,0 +1,6 @@
+.cursor-control {
+  /* Basic styling for cursor visualization */
+  width: 24px;
+ ...<snip>... 
+  border-radius: 50%;
+}
